@@ -11,6 +11,7 @@
 
 String[] fields = queryString.split("&amp;");
 String[] kv;
+String[] kt;
 
 HashMap&lt;String, String> params = new HashMap&lt;String, String>()
 for (int i = 0; i &lt; fields.length; ++i){
